@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Mecanismos de seguimiento, control, evaluación y oportunidades de mejora de la gestión del talento humano',
+    descripcionCurso:
+      'En el presente componente se abordarán aspectos relevantes para el mecanismo de control, evaluación y mejora del proceso de gestión humana en organizaciones deportivas. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,13 +33,31 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Evaluación del proceso de gestión humana en una organización',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Control de tiempo y recursos del proyecto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo:
+              'Evaluación del cumplimiento de lo proyectado de acuerdo con el tiempo y recursos estimados',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo:
+              'Autoevaluación: definición, importancia, aplicación al proceso de gestión humana',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Informe de la autoevaluación de la gestión de talento humano',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,13 +65,8 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Plan de mejoramiento de acuerdo con el resultado de la autoevaluación',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +117,70 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Evaluación del proceso de gestión humana en una organización',
+      referencia:
+        'Martínez, L. <em>Administración de recursos humanos ¿Cómo funciona?</em>. Gestiopolis.',
+      tipo: 'Página web',
+      link:
+        'https://www.gestiopolis.com/administracion-de-recursos-humanos-como-funciona/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Eficacia',
+      significado:
+        'grado en el que se realizan las actividades planificadas y se alcanzan los resultados planificados.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Efectividad',
+      significado:
+        'medida de impacto de la gestión, tanto en el logro de los resultados planificados como en el manejo de los recursos utilizados y disponibles.',
+    },
+    {
+      termino: 'Eficiencia',
+      significado:
+        'relación entre resultado alcanzado y los recursos empleados.',
+    },
+    {
+      termino: 'Indicador',
+      significado:
+        'medida o expresión cuantitativa que permite evaluar el desempeño de una organización frente a sus políticas, objetivos y metas.',
+    },
+    {
+      termino: 'Mejora continua',
+      significado:
+        'actividad recurrente para aumentar la capacidad para cumplir los requisitos.',
+    },
+    {
+      termino: 'Procesos de evaluación',
+      significado:
+        'aspectos necesarios para medir y recopilar datos destinados a realizar análisis del desempeño y la mejora de la eficacia y la eficiencia.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ander- Egg, E. (2000). <em>Metodología y práctica de la animación sociocultural</em>. Instituto de Ciencias Sociales Aplicadas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Chiavenato, I. (2011). <em>Administración de recursos humanos. El capital humano de las organizaciones</em>. McGraw-Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Colomer, M. (1979). Método de trabajo social. <em>Revista de Trabajo Social</em>, (75), p. 4-48.',
+      link: '',
+    },
+    {
+      referencia:
+        'Díaz, E., & Rodríguez, V. (2002). <em>La Evaluación en Servicios Sociales</em>. Alianza Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Project Management Institute [PMI]. (2008). <em>Organizational Project Management Maturity Model (OPM3): Knowledge Foundation</em>. Project Management Institute.',
       link: '',
     },
   ],
@@ -140,10 +194,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Guadrón',
+          cargo: 'Responsable Línea de Producción Distrito Capital',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -151,10 +205,48 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Camilo Andrés Aramburo Parra',
+          cargo: 'Experto temático',
+          centro: 'Regional Antioquia, Centro de servicios de salud',
+        },
+        {
+          nombre: 'Paola Andrea Quintero Aguilar',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Regional Bogotá, Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora Metodológica y Pedagógica',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuador Instruccional',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: '',
+          cargo: '',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: '',
+          cargo: '',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -162,28 +254,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: '',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -191,22 +289,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: '',
+          cargo: '',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: '',
+          cargo: '',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: '',
+          cargo: '',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
