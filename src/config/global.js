@@ -101,7 +101,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/122112_CF11_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -189,15 +189,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Guadrón',
           cargo: 'Responsable Línea de Producción Distrito Capital',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -237,16 +236,9 @@ export default {
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
-        },
-        {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Evaluación instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -254,31 +246,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Oscar Iván Uribe Ortiz',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          centro: 'RCentro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Luis Jesús Pérez Madariaga',
+          nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          centro: 'RCentro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
-        },
-        {
-          nombre: '',
-          cargo: 'Animación y Producción audiovisual',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
-        },
-        {
-          nombre: '',
+          nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animación y Producción audiovisual',
           centro:
             'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
@@ -289,22 +267,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
         },
         {
-          nombre: '',
-          cargo: '',
-          centro:
-            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+          nombre: 'Jorge Bustos Ortiz',
+          cargo: 'Validación de recursos educativos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
         },
       ],
     },

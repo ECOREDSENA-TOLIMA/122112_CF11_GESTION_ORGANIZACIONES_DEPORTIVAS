@@ -1,19 +1,69 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 4.0s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 75%
+    right: 78%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 4.0s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 67%
+    right: 21%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
   100%
     transform: translateY(0px)
+  
+@keyframes float2
+  0%
+    transform: translateX(30px)
+  100%
+    transform: translateX(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 33%
+
+.BG01
+  background-color: rgba(45,84,254,.96)
+
+.BG02
+  background-color: rgba(255,202,0,.96)
+
+.BG03
+  background-color: rgba(254,80,45,.96)
+
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -78%
+    @media (max-width: $bp-max-lg)
+      bottom: -76%
+    @media (max-width: $bp-max-md)
+      bottom: -78%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+      @media (max-width: $bp-max-xl)
+        bottom: -35%
+      @media (max-width: $bp-max-lg)
+        bottom: -20%
+      @media (max-width: $bp-max-md)
+        bottom: -45%
+      @media (max-width: $bp-max-xs)
+        bottom: -40%
+    i:first-child
+      display: none
+    i:last-child
+      display: block

@@ -23,7 +23,7 @@
           img(src="@/assets/curso/tema2/2.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          div.text-small(numero="1" titulo="Método Kaizen") 
+          div(numero="1" titulo="Método Kaizen") 
             ul.lista-ul.mb-0
               li.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -34,7 +34,7 @@
               li.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 | Se crean y evalúan grupos de trabajo.
-          div.text-small(numero="2" titulo="Método Lean Manufacturing") 
+          div(numero="2" titulo="Método Lean Manufacturing") 
             ul.lista-ul.mb-0
               li.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -42,7 +42,7 @@
               li.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 | Lograr que el trabajo se realice lo más rápido posible manteniendo la calidad. 
-          div.text-small(numero="3" titulo="Método PDCA") 
+          div(numero="3" titulo="Método PDCA") 
             ul.lista-ul.mb-0
               li.d-flex
                 i.fas.fa-angle-right(style="color:#FE502D;")
@@ -51,7 +51,7 @@
                 i.fas.fa-angle-right(style="color:#FE502D;")
                 | Ciclo clásico enfocado a la mejora continua. 
     
-    p.mt-5.fw-bold.text-center(data-aos="fade-right") La metodología para aplicar el plan de mejora es la siguiente:
+    p.mt-5(data-aos="fade-right") La metodología para aplicar el plan de mejora es la siguiente:
 
     .row.mt-5
       .col-lg.col-md-6.mb-5.mb-lg-0(data-aos="zoom-in")

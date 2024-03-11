@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Concepto y características del evento
+      h1 Evaluación del proceso de gestión humana en una organización
     
     .cont_1_1.pt-4.pt-lg-0
       .row
@@ -78,10 +78,10 @@
           img(src="@/assets/curso/tema1/6.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Acomodar la información a favor del evaluador") La evaluación deberá ser un proceso veraz, que refleje la realidad de los resultados obtenidos. Por lo tanto, es fundamental tener claridad sobre los elementos a evaluar, los objetivos a cumplir, las metas a alcanzar. Parte de la mejora continua será identificar esos aspectos que no se dieron como se esperaba o que podrían haber sido de mejor forma, con el fin de establecer acciones para su optimización. Pero el evaluador no deberá nunca incidir sobre los resultados a su conveniencia.
-          p.text-small(numero="2" titulo="La evaluación no es simplemente presentación de datos de medición") Los aspectos cuantitativos y cualitativos productos de mediciones son un insumo fundamental. Pero el valor lo dará el análisis que se pueda construir a partir de estos y su relación con los objetivos, metas y demás ítems a evaluar.
-          p.text-small(numero="3" titulo="Objetividad de la evaluación") La evaluación no podrá ser subjetiva, basándose en opiniones o creencias personales del evaluador, sin fundamentos o bases que sustenten la información. 
-          p.text-small(numero="4" titulo="El informe de evaluación no podrá ser igual para cada una de las partes interesadas") Se deberá presentar de acuerdo con la información requerida y de interés para cada parte. No es la misma información que espera el director del proyecto, donde espera ver el cumplimiento de los objetivos y eficacia – eficiencia en el manejo de los recursos, a la información esperada por los clientes.
+          p(numero="1" titulo="Acomodar la información a favor del evaluador") La evaluación deberá ser un proceso veraz, que refleje la realidad de los resultados obtenidos. Por lo tanto, es fundamental tener claridad sobre los elementos a evaluar, los objetivos a cumplir, las metas a alcanzar. Parte de la mejora continua será identificar esos aspectos que no se dieron como se esperaba o que podrían haber sido de mejor forma, con el fin de establecer acciones para su optimización. Pero el evaluador no deberá nunca incidir sobre los resultados a su conveniencia.
+          p(numero="2" titulo="La evaluación no es simplemente presentación de datos de medición") Los aspectos cuantitativos y cualitativos productos de mediciones son un insumo fundamental. Pero el valor lo dará el análisis que se pueda construir a partir de estos y su relación con los objetivos, metas y demás ítems a evaluar.
+          p(numero="3" titulo="Objetividad de la evaluación") La evaluación no podrá ser subjetiva, basándose en opiniones o creencias personales del evaluador, sin fundamentos o bases que sustenten la información. 
+          p(numero="4" titulo="El informe de evaluación no podrá ser igual para cada una de las partes interesadas") Se deberá presentar de acuerdo con la información requerida y de interés para cada parte. No es la misma información que espera el director del proyecto, donde espera ver el cumplimiento de los objetivos y eficacia – eficiencia en el manejo de los recursos, a la información esperada por los clientes.
     
     p.mt-5.text-center.fw-bold(data-aos="zoom-in") Después de conocer la importancia de la evaluación dentro de la gestión humana, es considerable conocer los tipos que se pueden utilizar en las organizaciones: 
 
@@ -224,13 +224,13 @@
         .p-3.p-lg-4.bg-white(style="border:3px #2D54FE solid;border-radius:25px;box-shadow:0px 4px 20px rgba(0,0,0,.15);" data-aos="zoom-in-up")
           p.mb-0 Según Chiavenato (2011), eso implica tratarlas como agentes activos y proactivos, dotados de inteligencia y creatividad, de iniciativa y decisión, de habilidades y competencias, y no sólo de capacidades manuales, físicas o artesanales. Los individuos no son recursos que la organización consume y utiliza, y que generan costos. Al contrario, constituyen un poderoso activo que impulsa la creatividad organizacional, de la misma manera que lo hacen el mercado o la tecnología.
     
-    p.mt-5.fw-bold(data-aos="fade-right") La gestión humana busca integrar, organizar, retener, desarrollar y controlar a las personas. A continuación, se presentan los cinco procesos de gestión de recursos humanos propuestos por Chiavenato (2011):
+    p.mt-5(data-aos="fade-right") La gestión humana busca integrar, organizar, retener, desarrollar y controlar a las personas. A continuación, se presentan los cinco procesos de gestión de recursos humanos propuestos por Chiavenato (2011):
 
     .cont_1_4.mt-5
       .col-xl-10.m-auto
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Tabla 1. 
-          span Procesos de gestión de recursos humanos
+          b Procesos de gestión de recursos humanos
         .tabla-a.color-acento-botones(data-aos="zoom-in-up")
           table
             caption.fw-normal.text-center(style="background-color:#F5F7FE;color:#727997;") Nota. Tomada de Chiavenato (2011).
@@ -349,13 +349,13 @@
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/25.png")
     
-    p.mt-5.text-center.fw-bold.mb-1(data-aos="zoom-in") La evaluación del proceso de recursos humanos será tan amplia como las propias funciones que se tenga en la organización.
-    p.text-center.fw-bold(data-aos="zoom-in") A continuación, se presenta un modelo de evaluación del proceso de recursos humanos con sus respectivos subprocesos:
+    p.mt-5(data-aos="zoom-in") La evaluación del proceso de recursos humanos será tan amplia como las propias funciones que se tenga en la organización.
+    p(data-aos="zoom-in") A continuación, se presenta un modelo de evaluación del proceso de recursos humanos con sus respectivos subprocesos:
 
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Tabla 2. 
-        span Evaluación proceso de recursos humanos 
+        b Evaluación proceso de recursos humanos 
       .tabla-a.color-acento-botones(data-aos="zoom-in-up")
         table
           caption.fw-normal.text-center(style="background-color:#F5F7FE;color:#727997;") Fuente: SENA (2021)
@@ -455,7 +455,7 @@
 
     p.mt-4(data-aos="fade-right") En el control, se pretende medir, evaluar y corregir el desempeño, con el propósito de que se alcancen los objetivos. El control se basa en el principio de la excepción expuesto por Taylor, quien refiere que todo sistema tiene sus desviaciones o fallas. Cuando estas son mínimas, son normales, pero cuando son grandes y desvían el camino al cumplimiento de los objetivos, se les deberá prestar especial atención. Estas son las responsables de generar sobrecostos y demoras en los procesos.
 
-    p.mt-5.fw-bold.text-center(data-aos="zoom-in") El proceso de control es cíclico, estructurado y se enfoca para alinear las acciones a lo establecido en el plan.
+    p.mt-5(data-aos="zoom-in") El proceso de control es cíclico, estructurado y se enfoca para alinear las acciones a lo establecido en el plan.
 
     TabsA.color-acento-contenido.mt-5
       .tarjeta.color-acento-botones.p-4(titulo="Establecer estándares" style="background-color:#FFFAE5;")
@@ -504,11 +504,10 @@
               figure.m-auto.col-7.col-md-6.col-lg-12
                 img(src="@/assets/curso/tema1/39.png")
       .py-4.py-md-5(titulo="<b>Medios de control</b>" :icono="require('@/assets/curso/tema1/40.svg')")
-        .col-xl-10.m-auto
-          p Las organizaciones cuentan con diferentes medios de control, de acuerdo con el tipo de empresa, su estructura organizacional y distribución de la jerarquía.
-          .col-lg-8.m-auto.mt-4
-            figure
-              img(src="@/assets/curso/tema1/41.svg")
+        p Las organizaciones cuentan con diferentes medios de control, de acuerdo con el tipo de empresa, su estructura organizacional y distribución de la jerarquía.
+        .col-lg-8.m-auto.mt-4
+          figure
+            img(src="@/assets/curso/tema1/41.svg")
       .py-4.py-md-5(titulo="<b>Estructuración del medio de control</b>" :icono="require('@/assets/curso/tema1/42.svg')")
         .col-xl-10.m-auto
           .row
@@ -545,8 +544,8 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 En la fase de planeación, la organización establece los objetivos, componentes y recursos estimados para la ejecución del proceso, programa o área de gestión humana. Una de las muchas herramientas para el control y evaluación de la ejecución de las acciones programadas es el diagrama Gantt, donde gráficamente se establece cada actividad planificada de acuerdo con el tiempo. Es preciso tener en cuenta que cada actividad cuenta con recursos destinados (recursos humanos, físicos, económicos, entre otros) y es importante ejecutar cada actividad conforme con lo establecido previamente, con el fin de no generar sobrecostos ni retrasos.
     
-    p.mt-5.fw-bold.text-center.mb-1(data-aos="zoom-in") El diagrama #[em Gantt] permitirá visualizar que se cumpla cada una de las actividades planificadas en el tiempo asignado.
-    p.fw-bold.text-center(data-aos="zoom-in")  A continuación, se describen algunos aspectos que se deberán tener en cuenta al evaluar su cumplimiento:
+    p.mt-5.mb-1(data-aos="zoom-in") El diagrama #[em Gantt] permitirá visualizar que se cumpla cada una de las actividades planificadas en el tiempo asignado.
+    p(data-aos="zoom-in")  A continuación, se describen algunos aspectos que se deberán tener en cuenta al evaluar su cumplimiento:
 
     .col-xl-10.m-auto.mt-5
       .row
@@ -661,48 +660,57 @@
         ul.lista-ul--separador.mt-3.mb-0.ps-3
           li.d-flex.mb-1
             i.fas.fa-angle-right(style="color:#FE502D;")
-            div #[strong Competencias:] las competencias son los conocimientos, habilidades y capacidades que un empleado necesita para tener éxito en su trabajo.
+            div #[strong Competencias:] son los conocimientos, habilidades y capacidades que un empleado necesita para tener éxito en su trabajo.
           li.d-flex.mb-1
             i.fas.fa-angle-right(style="color:#FE502D;")
-            div #[strong Desempeño:] el desempeño es la medida de cómo un empleado está utilizando sus competencias para lograr los resultados deseados.
+            div #[strong Desempeño:] es la medida de cómo un empleado está utilizando sus competencias para lograr los resultados deseados.
           li.d-flex.mb-0
             i.fas.fa-angle-right(style="color:#FE502D;")
-            div #[strong Evaluación:] la evaluación es el proceso de recopilar y analizar información sobre el desempeño de un empleado.
+            div #[strong Evaluación:] es el proceso de recopilar y analizar información sobre el desempeño de un empleado.
       .col-lg-5(data-aos="fade-left")
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/51.png")
     
-    p.mt-5.fw-bold.text-center(data-aos="zoom-in") En razón a lo anterior, se espera que la autoevaluación cumpla con las siguientes estrategias:
+    p.mt-5(data-aos="zoom-in") En razón a lo anterior, se espera que la autoevaluación cumpla con las siguientes estrategias:
 
-    .row.mt-4.justify-content-center(@mouseover="indicadorTarjetaFlip = false")
-      .col-lg-4.mb-4.md-lg-0.col-md-8
-        .crd_hover_txt(data-aos='flip-up')
-          .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/tema1/52.png' alt="")
-          .crd_hover_txt--body(style="background-color:rgba(45,84,254,.96);")
-            h5.mb-3.text-white.text-center Planificación estratégica
-            p.mt-4.text-white.mb-0 Definir meta y objetivos concretos para la empresa y para los empleados.
-      .col-lg-4.mb-4.md-lg-0.col-md-8
-        .crd_hover_txt(data-aos='flip-up')
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/tema1/53.png' alt="")
-          .crd_hover_txt--body(style="background-color:rgba(255,202,0,.96);")
-            h5.mb-3.text-center Pactar reglas del juego
-            p.mt-4.mb-0 Establecer criterios sobre cómo se evaluará el desempeño (indicadores).
-      .col-lg-4.mb-4.md-lg-0.col-md-8
-        .crd_hover_txt(data-aos='flip-up')
-          .crd_hover_txt--img
-            figure
-              img(src='@/assets/curso/tema1/54.png' alt="")
-          .crd_hover_txt--body(style="background-color:rgba(254,80,45,.96);")
-            h5.mb-3.text-center Comunicación efectiva
-            p.mt-4.mb-0 Mantener una comunicación efectiva y continua con los empleados para implemenar a autoevaluación.
+
+    .row.justify-content-center.mt-4
+      .col-lg-4.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-right")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/tema1/52.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG01.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.text-white.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Planificación estratégica
+            p.text-white.text-center.mb-0 Definir meta y objetivos concretos para la empresa y para los empleados.
+      .col-lg-4.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-up")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/tema1/53.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG02.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Pactar reglas del juego
+            p.text-center.mb-0 Establecer criterios sobre cómo se evaluará el desempeño (indicadores).
+      .col-lg-4.col-md-8.col-sm-10.mb-xl-0.mb-4(data-aos="fade-left")
+        .tarjetas-up(@mouseover="mostrarIndicador = false")
+          .indicador--hover(v-if="mostrarIndicador")
+          img(src='@/assets/curso/tema1/54.png' alt="Imagen decorativa")
+          .tarjetas-up_card.BG03.p-xl-4.p-lg-3.p-4
+            .title.d-flex.align-items-center.justify-content-center.mb-4
+              span
+                i.fas.fa-caret-up.fa-2x.me-3
+                i.fas.fa-caret-down.fa-2x.me-3
+              h4.mb-0 Comunicación efectiva
+            p.text-center.mb-0 Mantener una comunicación efectiva y continua con los empleados para implemenar a autoevaluación.
     
     .cont_1_8.mt-5.pt-4.pb-4
-      p.text-center.fw-bold(data-aos="zoom-in") El colaborador de la empresa, entrega informe de autoevaluación, resaltando:
+      p(data-aos="zoom-in") El colaborador de la empresa, entrega informe de autoevaluación, resaltando:
       .col-xl-10.m-auto.mt-4
         .row
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")

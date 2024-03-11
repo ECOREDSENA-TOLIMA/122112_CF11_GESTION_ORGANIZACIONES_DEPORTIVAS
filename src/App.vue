@@ -30,8 +30,6 @@ export default {
 <style lang="sass">
 .banner-interno
   height: 160px
-.banner-interno__fondo
-  background-image: url(assets/curso/fondo_tema.png) !important
 .banner-principal .tarjeta
   background-position: inherit !important
 .titulo-principal__numero
@@ -48,14 +46,7 @@ export default {
   background-color: transparent !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: #12263F !important
-.banner-principal-decorativo-1
-  animation: float1 2s ease-in-out infinite alternate !important
-  top: 75% !important
-  right: 78% !important
-.banner-principal-decorativo-2
-  animation: float1 3s ease-in-out infinite alternate !important
-  top: 67% !important
-  right: 21% !important
+
 .titulo-principal.color-acento-contenido .titulo-principal__numero
   background-color: #FFCA00 !important
 .banner-principal .tarjeta
