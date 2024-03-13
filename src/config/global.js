@@ -160,28 +160,42 @@ export default {
   referencias: [
     {
       referencia:
-        'Ander- Egg, E. (2000). <em>Metodología y práctica de la animación sociocultural</em>. Instituto de Ciencias Sociales Aplicadas.',
-      link: '',
+        'Cano Ramírez, A. (2000). Elementos para una definición de evaluación. En Ander-Egg, E. (2000). Página 2. Coloner, A. (1979). Página 5. Cohen, J., & Franco, R. (1988). Página 6. Recuperado de',
+      link:
+        'https://www2.ulpgc.es/hege/almacen/download/38/38196/tema_5_elementos_para_una_definicion_de_evaluacion.pdf',
     },
     {
       referencia:
-        'Chiavenato, I. (2011). <em>Administración de recursos humanos. El capital humano de las organizaciones</em>. McGraw-Hill.',
-      link: '',
+        'Colomer, M. (1979). Método de trabajo social. Revista de Trabajo Social, (75), p. 4-48',
     },
     {
       referencia:
-        'Colomer, M. (1979). Método de trabajo social. <em>Revista de Trabajo Social</em>, (75), p. 4-48.',
-      link: '',
+        'Saldarriaga Ríos, J. G. (2008). Gestión Humana: Tendencias y Perspectivas. En García, J. A., & Casanueva, C. (Eds.), Recuperado de',
+      link:
+        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-59232008000200006',
     },
     {
       referencia:
-        'Díaz, E., & Rodríguez, V. (2002). <em>La Evaluación en Servicios Sociales</em>. Alianza Editorial.',
-      link: '',
+        'Chiavenato, I. (2011). Administración de recursos humanos. El capital humano de las organizaciones. McGraw-Hill.',
     },
     {
       referencia:
-        'Project Management Institute [PMI]. (2008). <em>Organizational Project Management Maturity Model (OPM3): Knowledge Foundation</em>. Project Management Institute.',
-      link: '',
+        'Cuesta Santos, A. (2018). Manual para la evaluación del desempeño laboral. Recuperado de',
+      link:
+        'https://editorialmacro.com/wp-content/uploads/2021/02/9786123045531.pdf',
+    },
+    {
+      referencia:
+        'Lodezma Tamayo Caballero, R. (2011). La autoevaluación, la coevaluación y la evaluación compartida en la evaluación de la integralidad en educandos del preuniversitario cubano. En Porrás, J. (Ed.). Recuperado de',
+      link: 'https://www.eumed.net/rev/ced/28/rltc.htm ',
+    },
+    {
+      referencia:
+        'Díaz, E., & Rodríguez, V. (2002). La Evaluación en Servicios Sociales. Alianza Editorial.',
+    },
+    {
+      referencia:
+        'Project Management Institute [PMI]. (2008). Organizational Project Management Maturity Model (OPM3): Knowledge Foundation. Project Management Institute.',
     },
   ],
   creditos: [
@@ -269,17 +283,17 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Jorge Bustos Ortiz',
+          nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },

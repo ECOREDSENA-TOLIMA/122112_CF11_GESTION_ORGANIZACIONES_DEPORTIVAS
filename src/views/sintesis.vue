@@ -7,7 +7,7 @@
     .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="En la síntesis del componente formativo se analiza la evaluación del proceso de gestión humana en una organización, así como el plan de mejoramiento aplicable a la gestión del talento humano.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

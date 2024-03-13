@@ -35,18 +35,21 @@
     .cont_1_2.pt-5
       p(data-aos="fade-right") Por lo tanto, la evaluación deberá articular toda la información veraz y oportuna del proyecto, con el fin de brindar un veredicto sobre su resultado. El concepto de evaluación, según el diccionario de la Real Academia Española, refiere a señalar el valor a algo, además, que comprende los siguientes elementos: 
       .col-xl-8.mt-4.m-auto.col-lg-10
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 1.
+          i Elementos de la evaluación
         figure(data-aos="zoom-in-up")
-          img(src="@/assets/curso/tema1/3.svg")
+          img(src="@/assets/curso/tema1/3.svg" alt="En la Figura 1 se presentan los elementos de la evaluación, que incluyen actividades como medir, controlar y hacer seguimiento.")
     
     .row.mt-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-7.col-md-7.col-lg-12
           img(src="@/assets/curso/tema1/4.png")
       .col-lg-7(data-aos="fade-left" style="place-self:center;")
-        p Ander-Egg (2000), establece que la evaluación es una forma de investigación social aplicada, sistemática, planificada y dirigida; encaminada a identificar, obtener y proporcionar, de manera válida y fiable, datos e información suficiente y relevante en que apoyar un juicio acerca del mérito y el valor de los diferentes componentes de un programa (tanto en la fase de diagnóstico, programación o ejecución), o de un conjunto de actividades específicas que se realizan, han realizado o realizarán, con el propósito de producir efectos y resultados concretos; comprobando la extensión y el grado en que dichos logros se han dado, de forma tal que sirva de base o guía para una toma de decisiones racional e inteligente entre cursos de acción, o para solucionar problemas y promover el conocimiento y la comprensión de los factores asociados al éxito o al fracaso de sus resultados.
+        p Ander-Egg (2000), establece que “la evaluación es una forma de investigación social aplicada, sistemática, planificada y dirigida; encaminada a identificar, obtener y proporcionar, de manera válida y fiable, datos e información suficiente y relevante en que apoyar un juicio acerca del mérito y el valor de los diferentes componentes de un programa (tanto en la fase de diagnóstico, programación o ejecución), o de un conjunto de actividades específicas que se realizan, han realizado o realizarán, con el propósito de producir efectos y resultados concretos; comprobando la extensión y el grado en que dichos logros se han dado, de forma tal que sirva de base o guía para una toma de decisiones racional e inteligente entre cursos de acción, o para solucionar problemas y promover el conocimiento y la comprensión de los factores asociados al éxito o al fracaso de sus resultados”.
     
-    p.mt-5(data-aos="fade-right") Colomer (1979) define la evaluación como: un proceso crítico referido a acciones pasadas, con la finalidad de constatar, en términos de aprobación o desaprobación, los progresos alcanzados en el plan propuesto y hacer, en consecuencia, las modificaciones necesarias de las actividades futuras.
-    p(data-aos="fade-left") Cohen y Franco (1988) lo definen en idéntico sentido: Evaluar es fijar el valor de una cosa, para hacerlo se requiere efectuar un procedimiento mediante el cual se compara aquello a evaluar respecto de un criterio o patrón determinado.
+    p.mt-5(data-aos="fade-right") Colomer (1979) define la evaluación como: : “un proceso crítico referido a acciones pasadas, con la finalidad de constatar, en términos de aprobación o desaprobación, los progresos alcanzados en el plan propuesto y hacer, en consecuencia, las modificaciones necesarias de las actividades futuras”. 
+    p(data-aos="fade-left") Cohen y Franco (1988) lo definen en idéntico sentido: “evaluar es fijar el valor de una cosa, para hacerlo se requiere efectuar un procedimiento mediante el cual se compara aquello a evaluar respecto de un criterio o patrón determinado”. 
 
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
@@ -78,7 +81,7 @@
           img(src="@/assets/curso/tema1/6.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p(numero="1" titulo="Acomodar la información a favor del evaluador") La evaluación deberá ser un proceso veraz, que refleje la realidad de los resultados obtenidos. Por lo tanto, es fundamental tener claridad sobre los elementos a evaluar, los objetivos a cumplir, las metas a alcanzar. Parte de la mejora continua será identificar esos aspectos que no se dieron como se esperaba o que podrían haber sido de mejor forma, con el fin de establecer acciones para su optimización. Pero el evaluador no deberá nunca incidir sobre los resultados a su conveniencia.
+          p(numero="1" titulo="Acomodar la información a favor del evaluador") La evaluación deberá ser un proceso veraz, que refleje la realidad de los resultados obtenidos. Por lo tanto, es fundamental tener claridad sobre los elementos a evaluar, los objetivos a cumplir, las metas a alcanzar. Parte de la mejora continua será identificar los aspectos que no se dieron como se esperaba o que podrían haber sido de mejor forma para establecer acciones para optimizarla. Pero el evaluador no deberá nunca incidir sobre los resultados a su conveniencia.
           p(numero="2" titulo="La evaluación no es simplemente presentación de datos de medición") Los aspectos cuantitativos y cualitativos productos de mediciones son un insumo fundamental. Pero el valor lo dará el análisis que se pueda construir a partir de estos y su relación con los objetivos, metas y demás ítems a evaluar.
           p(numero="3" titulo="Objetividad de la evaluación") La evaluación no podrá ser subjetiva, basándose en opiniones o creencias personales del evaluador, sin fundamentos o bases que sustenten la información. 
           p(numero="4" titulo="El informe de evaluación no podrá ser igual para cada una de las partes interesadas") Se deberá presentar de acuerdo con la información requerida y de interés para cada parte. No es la misma información que espera el director del proyecto, donde espera ver el cumplimiento de los objetivos y eficacia – eficiencia en el manejo de los recursos, a la información esperada por los clientes.
@@ -232,7 +235,7 @@
           h5 Tabla 1. 
           b Procesos de gestión de recursos humanos
         .tabla-a.color-acento-botones(data-aos="zoom-in-up")
-          table
+          table(alt="En la Tabla 1 se presentan los procesos que intervienen en la gestión de recursos humanos, identificando los objetivos y actividades asociadas a cada uno.")
             caption.fw-normal.text-center(style="background-color:#F5F7FE;color:#727997;") Nota. Tomada de Chiavenato (2011).
             thead
               tr(style="background-color:#2D54FE;")
@@ -357,7 +360,7 @@
         h5 Tabla 2. 
         b Evaluación proceso de recursos humanos 
       .tabla-a.color-acento-botones(data-aos="zoom-in-up")
-        table
+        table(alt="En la Tabla 2 se presenta la evaluación del proceso de recursos humanos, identificando las funciones y los registros asociados a cada una de ellas.")
           caption.fw-normal.text-center(style="background-color:#F5F7FE;color:#727997;") Fuente: SENA (2021)
           thead
             tr(style="background-color:#2D54FE;")
@@ -492,8 +495,11 @@
     TabsB.color-acento-botones.mt-4(data-aos="zoom-in-up")
       .py-4.py-md-5(titulo="<b>Estándares del proceso de control</b>" :icono="require('@/assets/curso/tema1/36.svg')")
         .col-xl-10.m-auto
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 2.
+            i Estándares del proceso de control
           figure
-            img(src='@/assets/curso/tema1/37.svg')
+            img(src='@/assets/curso/tema1/37.svg' alt="En la Figura 2 se presentan los estándares del proceso de control, los cuales abarcan normas y estándares relacionados con la cantidad, calidad, tiempo y costo.")
       .py-4.py-md-5(titulo="<b>Aspectos a considerar en procesos de control</b>" :icono="require('@/assets/curso/tema1/38.svg')")
         .col-xl-10.m-auto
           .row
@@ -506,8 +512,11 @@
       .py-4.py-md-5(titulo="<b>Medios de control</b>" :icono="require('@/assets/curso/tema1/40.svg')")
         p Las organizaciones cuentan con diferentes medios de control, de acuerdo con el tipo de empresa, su estructura organizacional y distribución de la jerarquía.
         .col-lg-8.m-auto.mt-4
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 3.
+            i Medios de control empresariales
           figure
-            img(src="@/assets/curso/tema1/41.svg")
+            img(src="@/assets/curso/tema1/41.svg" alt="En la Figura 3 se muestran los medios de control utilizados en las empresas, los cuales varían según el tipo, la estructura organizacional y la distribución de la jerarquía.")
       .py-4.py-md-5(titulo="<b>Estructuración del medio de control</b>" :icono="require('@/assets/curso/tema1/42.svg')")
         .col-xl-10.m-auto
           .row
@@ -714,6 +723,9 @@
       .col-xl-10.m-auto.mt-4
         .row
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 4.
+              i Informe de autoevaluación
             figure.m-auto.col-7.col-md-8.col-lg-12
               img(src="@/assets/curso/tema1/55.svg")
           .col-lg-6(data-aos="fade-left")
@@ -751,7 +763,7 @@
             div #[strong Sea específico:] cuando enumere sus logros, sea específico sobre lo que logró. No solo diga que "alcanzó sus objetivos", sino que proporcione detalles sobre los objetivos que logró y cómo los logró.
           li.d-flex
             i.fas.fa-angle-right(style="color:#FE502D;")
-            div #[strong Sea honesto:] sea honesto sobre sus fortalezas y áreas de mejora. No trate de fingir que es perfecto, sino que reconozca sus áreas de mejora y esté comprometido a mejorarlas.
+            div #[strong Sea honesto:] sobre sus fortalezas y áreas de mejora. No trate de fingir que es perfecto, sino que reconozca sus áreas de mejora y esté comprometido a mejorarlas.
           li.d-flex
             i.fas.fa-angle-right(style="color:#FE502D;")
             div #[strong Sea proactivo:] utilice el informe de autoevaluación para identificar oportunidades de desarrollo profesional.
