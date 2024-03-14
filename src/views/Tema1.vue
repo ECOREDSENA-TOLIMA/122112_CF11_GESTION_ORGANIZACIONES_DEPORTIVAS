@@ -48,7 +48,7 @@
       .col-lg-7(data-aos="fade-left" style="place-self:center;")
         p Ander-Egg (2000), establece que “la evaluación es una forma de investigación social aplicada, sistemática, planificada y dirigida; encaminada a identificar, obtener y proporcionar, de manera válida y fiable, datos e información suficiente y relevante en que apoyar un juicio acerca del mérito y el valor de los diferentes componentes de un programa (tanto en la fase de diagnóstico, programación o ejecución), o de un conjunto de actividades específicas que se realizan, han realizado o realizarán, con el propósito de producir efectos y resultados concretos; comprobando la extensión y el grado en que dichos logros se han dado, de forma tal que sirva de base o guía para una toma de decisiones racional e inteligente entre cursos de acción, o para solucionar problemas y promover el conocimiento y la comprensión de los factores asociados al éxito o al fracaso de sus resultados”.
     
-    p.mt-5(data-aos="fade-right") Colomer (1979) define la evaluación como: : “un proceso crítico referido a acciones pasadas, con la finalidad de constatar, en términos de aprobación o desaprobación, los progresos alcanzados en el plan propuesto y hacer, en consecuencia, las modificaciones necesarias de las actividades futuras”. 
+    p.mt-5(data-aos="fade-right") Colomer (1979) define la evaluación como: “un proceso crítico referido a acciones pasadas, con la finalidad de constatar, en términos de aprobación o desaprobación, los progresos alcanzados en el plan propuesto y hacer, en consecuencia, las modificaciones necesarias de las actividades futuras”. 
     p(data-aos="fade-left") Cohen y Franco (1988) lo definen en idéntico sentido: “evaluar es fijar el valor de una cosa, para hacerlo se requiere efectuar un procedimiento mediante el cual se compara aquello a evaluar respecto de un criterio o patrón determinado”. 
 
     .row.mt-5
@@ -233,7 +233,7 @@
       .col-xl-10.m-auto
         .titulo-sexto.color-acento-botones(data-aos="fade-right")
           h5 Tabla 1. 
-          b Procesos de gestión de recursos humanos
+          i Procesos de gestión de recursos humanos
         .tabla-a.color-acento-botones(data-aos="zoom-in-up")
           table(alt="En la Tabla 1 se presentan los procesos que intervienen en la gestión de recursos humanos, identificando los objetivos y actividades asociadas a cada uno.")
             caption.fw-normal.text-center(style="background-color:#F5F7FE;color:#727997;") Nota. Tomada de Chiavenato (2011).
@@ -358,7 +358,7 @@
     .col-xl-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones(data-aos="fade-right")
         h5 Tabla 2. 
-        b Evaluación proceso de recursos humanos 
+        i Evaluación proceso de recursos humanos 
       .tabla-a.color-acento-botones(data-aos="zoom-in-up")
         table(alt="En la Tabla 2 se presenta la evaluación del proceso de recursos humanos, identificando las funciones y los registros asociados a cada una de ellas.")
           caption.fw-normal.text-center(style="background-color:#F5F7FE;color:#727997;") Fuente: SENA (2021)
@@ -439,7 +439,7 @@
         .h-100.p-4.d-flex.align-content-center.flex-wrap(style="background-color:#2D54FE;border-radius:10px;border:3px white solid;box-shadow:0px 0px 15px rgba(0,0,0,.15);")
           p.fw-bold.text-center.mb-0.w-100.text-white Retroalimentación
     
-    p.mt-5.fw-bold.text-center(data-aos="zoom-in") A continuación, se detallan los pasos a seguir en el proceso de evaluación de desempeño, que incluyen técnicas, la entrevista de evaluación y la definición de objetivos.
+    p.mt-5(data-aos="zoom-in") A continuación, se detallan los pasos a seguir en el proceso de evaluación de desempeño, que incluyen técnicas, la entrevista de evaluación y la definición de objetivos.
 
     .cont_1_6.mt-5.pt-4.pb-4(data-aos="zoom-in")
       SlyderBCustom(:datos="datosSlyder1")
