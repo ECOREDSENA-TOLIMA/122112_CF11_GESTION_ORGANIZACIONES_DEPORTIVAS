@@ -170,9 +170,9 @@ export default {
     },
     {
       referencia:
-        'Saldarriaga Ríos, J. G. (2008). Gestión Humana: Tendencias y Perspectivas. En García, J. A., & Casanueva, C. (Eds.), Recuperado de',
+        'Saldarriaga Ríos, J. G. (2008). Gestión Humana: Tendencias y Perspectivas. En García, J. A., & Casanueva, C. (Eds.). Recuperado de',
       link:
-        'http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-59232008000200006',
+        'https://www.icesi.edu.co/revistas/index.php/estudios_gerenciales/article/view/262/260',
     },
     {
       referencia:
@@ -210,7 +210,7 @@ export default {
         {
           nombre: 'Liliana Victoria Morales Guadrón',
           cargo: 'Responsable Línea de Producción Distrito Capital',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -252,7 +252,7 @@ export default {
         {
           nombre: 'Viviana Esperanza Herrera Quiñonez',
           cargo: 'Evaluación instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -262,12 +262,12 @@ export default {
         {
           nombre: 'Oscar Iván Uribe Ortiz',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'RCentro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
           cargo: 'Desarrollador Fullstack',
-          centro: 'RCentro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
@@ -281,19 +281,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Norma Constanza Morales Cruz',
+          nombre: 'Jorge Eduardo Rueda Peña',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Jorge Bustos Gómez',
           cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },

@@ -81,7 +81,7 @@
           img(src="@/assets/curso/tema1/6.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p(numero="1" titulo="Acomodar la información a favor del evaluador") La evaluación deberá ser un proceso veraz, que refleje la realidad de los resultados obtenidos. Por lo tanto, es fundamental tener claridad sobre los elementos a evaluar, los objetivos a cumplir, las metas a alcanzar. Parte de la mejora continua será identificar los aspectos que no se dieron como se esperaba o que podrían haber sido de mejor forma para establecer acciones para optimizarla. Pero el evaluador no deberá nunca incidir sobre los resultados a su conveniencia.
+          p(numero="1" titulo="Acomodar la información a favor del evaluador") La evaluación deberá ser un proceso veraz, que refleje la realidad de los resultados obtenidos. Por lo tanto, es fundamental tener claridad sobre los elementos a evaluar, los objetivos a cumplir, las metas a alcanzar. Parte de la mejora continua será identificar esos aspectos que no se dieron como se esperaba o que podrían haber sido de mejor forma, con el fin de establecer acciones para su optimización. Pero el evaluador no deberá nunca incidir sobre los resultados a su conveniencia.
           p(numero="2" titulo="La evaluación no es simplemente presentación de datos de medición") Los aspectos cuantitativos y cualitativos productos de mediciones son un insumo fundamental. Pero el valor lo dará el análisis que se pueda construir a partir de estos y su relación con los objetivos, metas y demás ítems a evaluar.
           p(numero="3" titulo="Objetividad de la evaluación") La evaluación no podrá ser subjetiva, basándose en opiniones o creencias personales del evaluador, sin fundamentos o bases que sustenten la información. 
           p(numero="4" titulo="El informe de evaluación no podrá ser igual para cada una de las partes interesadas") Se deberá presentar de acuerdo con la información requerida y de interés para cada parte. No es la misma información que espera el director del proyecto, donde espera ver el cumplimiento de los objetivos y eficacia – eficiencia en el manejo de los recursos, a la información esperada por los clientes.
@@ -352,7 +352,7 @@
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/25.png")
     
-    p.mt-5(data-aos="zoom-in") La evaluación del proceso de recursos humanos será tan amplia como las propias funciones que se tenga en la organización.
+    p.mt-5(data-aos="zoom-in") La evaluación del proceso de recursos humanos será tan amplia como las propias funciones que se tengan en la organización.
     p(data-aos="zoom-in") A continuación, se presenta un modelo de evaluación del proceso de recursos humanos con sus respectivos subprocesos:
 
     .col-xl-10.m-auto.mt-5
@@ -442,7 +442,7 @@
     p.mt-5(data-aos="zoom-in") A continuación, se detallan los pasos a seguir en el proceso de evaluación de desempeño, que incluyen técnicas, la entrevista de evaluación y la definición de objetivos.
 
     .cont_1_6.mt-5.pt-4.pb-4(data-aos="zoom-in")
-      SlyderBCustom(:datos="datosSlyder1")
+      SlyderB(:datos="datosSlyder1")
     
     Separador
 
@@ -665,7 +665,7 @@
     .row.mt-4
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p La autoevaluación de desempeño se ha convertido en una práctica fundamental para mejorar la gestión del talento humano en las empresas. A continuación, se proporciona una visión general del informe de autoevaluación de la gestión de talento humano, destacando su importancia y los objetivos que se persiguen al realizarlo. Se resaltarán los beneficios de implementar una autoevaluación sistemática para mejorar la gestión de talento humano en una organización.
-        p.mt-4 En razón a lo anterior, se espera que la autoevaluación cumpla con las siguientes estrategias:
+        p Campbell ha propuesto un modelo de evaluación del desempeño basado en los siguientes componentes:
         ul.lista-ul--separador.mt-3.mb-0.ps-3
           li.d-flex.mb-1
             i.fas.fa-angle-right(style="color:#FE502D;")
@@ -716,7 +716,7 @@
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Comunicación efectiva
-            p.text-center.mb-0 Mantener una comunicación efectiva y continua con los empleados para implemenar a autoevaluación.
+            p.text-center.mb-0 Mantener una comunicación efectiva y continua con los empleados para implementar a autoevaluación.
     
     .cont_1_8.mt-5.pt-4.pb-4
       p(data-aos="zoom-in") El colaborador de la empresa, entrega informe de autoevaluación, resaltando:
@@ -727,7 +727,7 @@
               h5 Figura 4.
               i Informe de autoevaluación
             figure.m-auto.col-7.col-md-8.col-lg-12
-              img(src="@/assets/curso/tema1/55.svg")
+              img(src="@/assets/curso/tema1/55.svg" alt="En la Figura 4 se presentan los componentes de un informe de autoevaluación de talento humano, resaltando las fortalezas, debilidades, amenazas y oportunidades.")
           .col-lg-6(data-aos="fade-left")
             p.mb-0 Según (Chiavenato, 2011), se espera que cada persona asuma la autoevaluación, es decir evaluación de  su propio desempeño, utilizando criterios e indicadores para reducir la subjetividad implícita del proceso. Cada persona evalúa constantemente su actuación y su eficiencia y eficacia, en el marco de algunos parámetros que le proporciona su supervisor o la tarea misma; se debe evaluar su desempeño como vía que le permita alcanzar las metas y los resultados establecidos y superar las expectativas. Debe evaluar sus necesidades y sus debilidades personales para mejorar su desempeño, así como sus puntos fuertes y su potencial para establecer un posterior plan de mejora.
     
@@ -771,22 +771,11 @@
         figure.m-auto.col-7.col-md-6.col-lg-12
           img(src="@/assets/curso/tema1/57.png")
 
-
-
-
- 
-
-      
-      
 </template>
 
 <script>
-import SlyderBCustom from '../components/SlyderBCustom.vue'
 export default {
   name: 'Tema1',
-  components: {
-    SlyderBCustom,
-  },
   data: () => ({
     indicadorTarjetaFlip: true,
     datosSlyder1: [
